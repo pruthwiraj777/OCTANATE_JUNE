@@ -1,2 +1,117 @@
 # OCTANATE_JUNE
 New REPO
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style> 
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to My Landing Page</h1>
+            <nav>
+                <ul>
+                    <li><a href="#section1">Section 1</a></li>
+                    <li><a href="#section2">Section 2</a></li>
+                    <li><a href="#section3">Section 3</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="section1" class="section">
+        <div class="container">
+            <h2>Section 1</h2>
+            <p>This is the first section of the landing page.</p>
+        </div>
+    </section>
+
+    <section id="section2" class="section">
+        <div class="container">
+            <h2>Section 2</h2>
+            <p>This is the second section of the landing page.</p>
+        </div>
+    </section>
+
+    <section id="section3" class="section">
+        <div class="container">
+            <h2>Section 3</h2>
+            <p>This is the third section of the landing page.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Landing Page. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
